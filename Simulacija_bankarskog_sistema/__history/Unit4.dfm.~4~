@@ -1,0 +1,61 @@
+object Form4: TForm4
+  Left = 0
+  Top = 0
+  BorderStyle = bsSingle
+  Caption = 'BANKA'
+  ClientHeight = 123
+  ClientWidth = 447
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 32
+    Top = 20
+    Width = 358
+    Height = 19
+    Caption = 'Da li ste sigurni da '#382'elite da se vratite na po'#269'etak? '
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 96
+    Top = 53
+    Width = 205
+    Height = 19
+    Caption = 'Sav napredak '#263'e biti izbrisan!'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 32
+    Top = 90
+    Width = 75
+    Height = 25
+    Caption = 'DA'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 312
+    Top = 90
+    Width = 75
+    Height = 25
+    Caption = 'NE'
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+end

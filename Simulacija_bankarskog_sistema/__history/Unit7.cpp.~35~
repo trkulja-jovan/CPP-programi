@@ -1,0 +1,52 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#include<windows.h>
+#pragma hdrstop
+
+#include "Unit7.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm7 *Form7;
+int x;
+//---------------------------------------------------------------------------
+__fastcall TForm7::TForm7(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm7::Button1Click(TObject *Sender)
+{
+Sleep(1000);
+ShowMessage("Uplata uspešno prosleðena");
+Form7->Close();
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm7::FormCreate(TObject *Sender)
+{
+//Edit6->Text=Form3->DBText1->Caption;
+Label14->Caption=Date();
+Form7->Color=clMedGray;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm7::ComboBox2Change(TObject *Sender)
+{
+x=ComboBox2->ItemIndex;
+switch(x)
+{
+	case 0: Label16->Caption=ComboBox2->Items->Strings[0]; break;
+	case 1: Label16->Caption=ComboBox2->Items->Strings[1]; break;
+	case 2: Label16->Caption=ComboBox2->Items->Strings[2]; break;
+	case 3: Label16->Caption=ComboBox2->Items->Strings[3]; break;
+	case 4: Label16->Caption=ComboBox2->Items->Strings[4]; break;
+	case 5: Label16->Caption=ComboBox2->Items->Strings[5]; break;
+	case 6: Label16->Caption=ComboBox2->Items->Strings[6]; break;
+}
+}
+//---------------------------------------------------------------------------
+
+
+
+
+

@@ -1,0 +1,294 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  BorderStyle = bsSingle
+  Caption = 'BANKA'
+  ClientHeight = 471
+  ClientWidth = 794
+  Color = clMedGray
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 120
+    Top = 80
+    Width = 45
+    Height = 26
+    Caption = 'Ime*'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 98
+    Top = 160
+    Width = 79
+    Height = 26
+    Caption = 'Prezime*'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 64
+    Top = 240
+    Width = 141
+    Height = 26
+    Caption = 'Datum ro'#273'enja*'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 557
+    Top = 80
+    Width = 164
+    Height = 26
+    Caption = 'Mesto stanovanja*'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 105
+    Top = 320
+    Width = 65
+    Height = 26
+    Caption = 'JMBG*'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 576
+    Top = 160
+    Width = 134
+    Height = 26
+    Caption = 'Po'#353'tanski broj*'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 576
+    Top = 240
+    Width = 148
+    Height = 26
+    Caption = 'Broj li'#269'ne karte*'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 536
+    Top = 320
+    Width = 199
+    Height = 26
+    Caption = 'Broj mobilnog telefona'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 168
+    Top = 8
+    Width = 483
+    Height = 60
+    Caption = 'PRIJAVNI FORMULAR'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -43
+    Font.Name = 'Comic Sans MS'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 32
+    Top = 378
+    Width = 171
+    Height = 26
+    Caption = '* Polja su obavezna'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 616
+    Top = 422
+    Width = 145
+    Height = 35
+    Caption = 'Slede'#263'e'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 435
+    Top = 424
+    Width = 145
+    Height = 34
+    Caption = 'Po'#269'etak'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object CheckBox1: TCheckBox
+    Left = 32
+    Top = 430
+    Width = 337
+    Height = 17
+    Caption = 'Sla'#382'em se sa uslovima ECO BANKE'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    OnClick = CheckBox1Click
+  end
+  object Panel1: TPanel
+    Left = 288
+    Top = 111
+    Width = 217
+    Height = 261
+    Color = clBlack
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentBackground = False
+    ParentFont = False
+    TabOrder = 3
+    object Memo1: TMemo
+      Left = 8
+      Top = 8
+      Width = 201
+      Height = 241
+      Color = clBlack
+      Enabled = False
+      Font.Charset = EASTEUROPE_CHARSET
+      Font.Color = clWhite
+      Font.Height = -13
+      Font.Name = 'Comic Sans MS'
+      Font.Style = []
+      Lines.Strings = (
+        'USLOVI ECO BANKE'
+        ''
+        '- Banka u svakom trenutku ima '
+        'pristup podacima'
+        '- Banka vam mo'#382'e slati ponude '
+        'i promocije'
+        '- Odr'#382'avanje ra'#269'una ko'#353'ta '
+        '200.00 dinara na mese'#269'nom '
+        'nivou'
+        '- Samo banka ima pristup '
+        'va'#353'em pin kodu'
+        '- Va'#353'i podaci ne'#263'e biti javno '
+        'dostupni')
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 0
+    end
+  end
+  object DBEdit1: TDBEdit
+    Left = 32
+    Top = 112
+    Width = 225
+    Height = 21
+    TabOrder = 4
+  end
+  object DBEdit2: TDBEdit
+    Left = 32
+    Top = 192
+    Width = 225
+    Height = 21
+    TabOrder = 5
+  end
+  object DBEdit3: TDBEdit
+    Left = 32
+    Top = 272
+    Width = 225
+    Height = 21
+    TabOrder = 6
+  end
+  object DBEdit4: TDBEdit
+    Left = 32
+    Top = 351
+    Width = 225
+    Height = 21
+    TabOrder = 7
+  end
+  object DBEdit5: TDBEdit
+    Left = 536
+    Top = 112
+    Width = 224
+    Height = 21
+    TabOrder = 8
+  end
+  object DBEdit6: TDBEdit
+    Left = 536
+    Top = 192
+    Width = 224
+    Height = 21
+    TabOrder = 9
+  end
+  object DBEdit7: TDBEdit
+    Left = 536
+    Top = 272
+    Width = 224
+    Height = 21
+    TabOrder = 10
+  end
+  object DBEdit8: TDBEdit
+    Left = 536
+    Top = 352
+    Width = 224
+    Height = 21
+    TabOrder = 11
+  end
+end

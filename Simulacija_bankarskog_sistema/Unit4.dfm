@@ -1,0 +1,78 @@
+object Form4: TForm4
+  Left = 0
+  Top = 0
+  BorderStyle = bsSingle
+  Caption = 'BANKA'
+  ClientHeight = 130
+  ClientWidth = 511
+  Color = clMedGray
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 8
+    Top = 8
+    Width = 504
+    Height = 29
+    Caption = 'Da li ste sigurni da '#382'elite da se vratite na po'#269'etak? '
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clNavy
+    Font.Height = -21
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 112
+    Top = 55
+    Width = 288
+    Height = 29
+    Caption = 'Sav napredak '#263'e biti izbrisan!'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clNavy
+    Font.Height = -21
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object BitBtn1: TBitBtn
+    Left = 8
+    Top = 90
+    Width = 75
+    Height = 25
+    Caption = 'DA'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    Kind = bkYes
+    NumGlyphs = 2
+    ParentFont = False
+    TabOrder = 0
+    OnClick = BitBtn1Click
+  end
+  object BitBtn2: TBitBtn
+    Left = 428
+    Top = 90
+    Width = 75
+    Height = 25
+    Caption = 'NE'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    Kind = bkNo
+    NumGlyphs = 2
+    ParentFont = False
+    TabOrder = 1
+    OnClick = BitBtn2Click
+  end
+end

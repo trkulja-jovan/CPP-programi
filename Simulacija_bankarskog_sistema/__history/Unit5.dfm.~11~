@@ -1,0 +1,31 @@
+object Form5: TForm5
+  Left = 0
+  Top = 0
+  BorderStyle = bsSingle
+  Caption = 'BANKA'
+  ClientHeight = 265
+  ClientWidth = 524
+  Color = clActiveCaption
+  Font.Charset = RUSSIAN_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label4: TLabel
+    Left = 50
+    Top = 17
+    Width = 390
+    Height = 77
+    Caption = #39#39'ECO'#39#39' BANKA'
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clNavy
+    Font.Height = -64
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+end

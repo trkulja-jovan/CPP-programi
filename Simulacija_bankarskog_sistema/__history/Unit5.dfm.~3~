@@ -1,0 +1,107 @@
+object Form5: TForm5
+  Left = 0
+  Top = 0
+  Caption = 'BANKA'
+  ClientHeight = 255
+  ClientWidth = 514
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label4: TLabel
+    Left = 50
+    Top = 25
+    Width = 390
+    Height = 77
+    Caption = #39#39'ECO'#39#39' BANKA'
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clNavy
+    Font.Height = -64
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object RadioButton1: TRadioButton
+    Left = 8
+    Top = 144
+    Width = 113
+    Height = 17
+    Caption = #1035#1048#1056#1048#1051#1048#1062#1040
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object RadioButton2: TRadioButton
+    Left = 8
+    Top = 208
+    Width = 113
+    Height = 17
+    Caption = 'LATINICA'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object RadioButton3: TRadioButton
+    Left = 200
+    Top = 144
+    Width = 113
+    Height = 17
+    Caption = 'ENGLESKI JEZIK'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object RadioButton4: TRadioButton
+    Left = 200
+    Top = 208
+    Width = 113
+    Height = 17
+    Caption = 'NEMA'#268'KI JEZIK'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+  object RadioButton5: TRadioButton
+    Left = 375
+    Top = 144
+    Width = 129
+    Height = 17
+    Caption = 'ITALIJANSKI JEZIK'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+  end
+  object RadioButton6: TRadioButton
+    Left = 375
+    Top = 208
+    Width = 113
+    Height = 17
+    Caption = #352'PANSKI JEZIK'
+    TabOrder = 5
+  end
+end

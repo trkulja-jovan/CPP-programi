@@ -1,0 +1,53 @@
+object Form5: TForm5
+  Left = 0
+  Top = 0
+  BorderStyle = bsSingle
+  Caption = 'BANKA'
+  ClientHeight = 303
+  ClientWidth = 562
+  Color = clMedGray
+  Font.Charset = RUSSIAN_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label4: TLabel
+    Left = 24
+    Top = 8
+    Width = 496
+    Height = 90
+    Caption = #39#39'ECO'#39#39' BANKA'
+    Color = clMedGray
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -64
+    Font.Name = 'Comic Sans MS'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Memo1: TMemo
+    Left = 8
+    Top = 104
+    Width = 546
+    Height = 185
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    Lines.Strings = (
+      'Ovaj program je napravljen kao maturski rad '
+      'iz programiranja.'
+      'Autor je Jovan Trkulja koji zadr'#382'ava prava na '
+      'ovaj program.'
+      'Odeljenje E42 u '#353'kolskoj 2016/17 godini.')
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 0
+  end
+end

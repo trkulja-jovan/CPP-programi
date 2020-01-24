@@ -1,0 +1,144 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  BorderStyle = bsSingle
+  Caption = 'BANKA'
+  ClientHeight = 471
+  ClientWidth = 794
+  Color = clMedGray
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label9: TLabel
+    Left = 180
+    Top = 8
+    Width = 483
+    Height = 60
+    Caption = 'PRIJAVNI FORMULAR'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -43
+    Font.Name = 'Comic Sans MS'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label1: TLabel
+    Left = 46
+    Top = 233
+    Width = 142
+    Height = 29
+    Caption = 'Va'#353' pin kod je:'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 46
+    Top = 129
+    Width = 229
+    Height = 29
+    Caption = 'Broj teku'#263'eg ra'#269'una je:'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 46
+    Top = 373
+    Width = 243
+    Height = 29
+    Caption = 'Zapamtite va'#353'e podatke*'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+  end
+  object DBText1: TDBText
+    Left = 312
+    Top = 224
+    Width = 65
+    Height = 17
+    DataField = 'Ziro racun'
+    DataSource = Form2.DataSource1
+  end
+  object DBText2: TDBText
+    Left = 312
+    Top = 280
+    Width = 65
+    Height = 17
+    DataField = 'Pin kod'
+    DataSource = Form2.DataSource1
+  end
+  object CheckBox1: TCheckBox
+    Left = 46
+    Top = 410
+    Width = 399
+    Height = 33
+    Caption = 'Potvr'#273'ujem da su podaci o meni istiniti'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -21
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = CheckBox1Click
+  end
+  object Button2: TButton
+    Left = 648
+    Top = 408
+    Width = 129
+    Height = 41
+    Caption = 'Zavr'#353'i prijavu'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 648
+    Top = 327
+    Width = 89
+    Height = 34
+    Caption = 'Po'#269'etak'
+    Font.Charset = EASTEUROPE_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Comic Sans MS'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    OnClick = Button3Click
+  end
+  object ADOTable1: TADOTable
+    ConnectionString = 
+      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Joca\Docum' +
+      'ents\RAD Studio\Projects\aplikacije\baza\Database1.mdb;Persist S' +
+      'ecurity Info=False'
+    Left = 464
+    Top = 152
+  end
+  object DataSource1: TDataSource
+    DataSet = Form2.ADOTable1
+    Left = 464
+    Top = 272
+  end
+end

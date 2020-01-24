@@ -1,0 +1,39 @@
+//----------------------------------------------------------------------------
+#ifndef PassWordH
+#define PassWordH
+//----------------------------------------------------------------------------
+#include <Buttons.hpp>
+#include <StdCtrls.hpp>
+#include <Controls.hpp>
+#include <Forms.hpp>
+#include <Graphics.hpp>
+#include <Classes.hpp>
+#include <SysUtils.hpp>
+#include <Windows.hpp>
+#include <System.hpp>
+#include <Data.DB.hpp>
+#include <Data.Win.ADODB.hpp>
+#include <Vcl.Menus.hpp>
+//----------------------------------------------------------------------------
+class TPasswordDlg : public TForm
+{
+__published:
+	TLabel *Label1;
+	TEdit *Password;
+	TADOTable *ADOTable1;
+	TDataSource *DataSource1;
+	TBitBtn *BitBtn1;
+	TBitBtn *BitBtn2;
+	void __fastcall CancelBtnClick(TObject *Sender);
+	void __fastcall FormCreate(TObject *Sender);
+	void __fastcall BitBtn1Click(TObject *Sender);
+	void __fastcall BitBtn2Click(TObject *Sender);
+	void __fastcall PasswordChange(TObject *Sender);
+private:
+public:
+	virtual __fastcall TPasswordDlg(TComponent* AOwner);
+};
+//----------------------------------------------------------------------------
+extern PACKAGE TPasswordDlg *PasswordDlg;
+//----------------------------------------------------------------------------
+#endif    

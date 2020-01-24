@@ -1,0 +1,41 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit3H
+#define Unit3H
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.DBCtrls.hpp>
+#include <Vcl.Mask.hpp>
+#include <Data.DB.hpp>
+#include <Data.Win.ADODB.hpp>
+#include <Vcl.Buttons.hpp>
+#include <Vcl.DBGrids.hpp>
+#include <Vcl.Grids.hpp>
+#include <Vcl.ExtCtrls.hpp>
+//---------------------------------------------------------------------------
+class TForm3 : public TForm
+{
+__published:	// IDE-managed Components
+	TLabel *Label1;
+	TLabel *Label2;
+	TLabel *Label3;
+	TLabel *Label4;
+	TEdit *Edit1;
+	TEdit *Edit2;
+	TBitBtn *BitBtn1;
+	TADOTable *ADOTable1;
+	TDataSource *DataSource1;
+	void __fastcall FormCreate(TObject *Sender);
+	void __fastcall BitBtn1Click(TObject *Sender);
+	void __fastcall Edit2Change(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm3(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm3 *Form3;
+//---------------------------------------------------------------------------
+#endif

@@ -1,0 +1,72 @@
+object Form5: TForm5
+  Left = 0
+  Top = 0
+  BorderStyle = bsSingle
+  Caption = 'BANKA'
+  ClientHeight = 265
+  ClientWidth = 524
+  Color = clGradientActiveCaption
+  Font.Charset = RUSSIAN_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label4: TLabel
+    Left = 50
+    Top = 25
+    Width = 390
+    Height = 77
+    Caption = #39#39'ECO'#39#39' BANKA'
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clNavy
+    Font.Height = -64
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object RadioButton3: TRadioButton
+    Left = 24
+    Top = 216
+    Width = 113
+    Height = 17
+    Caption = 'ENGLESKI JEZIK'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object RadioButton4: TRadioButton
+    Left = 360
+    Top = 216
+    Width = 113
+    Height = 17
+    Caption = 'NEMA'#268'KI JEZIK'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object RadioButton2: TRadioButton
+    Left = 176
+    Top = 160
+    Width = 193
+    Height = 17
+    Caption = 'SRPSKI JEZIK (default)'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+end
